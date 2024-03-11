@@ -17,6 +17,7 @@ class MainWindow(QMainWindow):
     def initializeUI(self):
         self.setFixedSize(650, 650)
         self.setWindowTitle("Photo Editor")
+        self.setWindowIcon(QIcon("resources/pyqt_logo.png"))
 
         self.setUpMainWindow()
         self.createToolsDockWidget()
