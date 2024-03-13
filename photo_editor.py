@@ -296,5 +296,7 @@ if __name__=="__main__":
     app.setAttribute(
         Qt.ApplicationAttribute.AA_DontShowIconsInMenus, True
     )
+    app.setStyle("Fusion")
+    # app.setStyleSheet("QPushButton{background-color: 'dark blue'}")
     window = MainWindow()
     sys.exit(app.exec())
